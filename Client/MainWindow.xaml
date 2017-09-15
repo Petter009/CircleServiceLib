@@ -1,0 +1,17 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+  <Grid x:Name="Calc">
+    <Button x:Name="CalcDiaBtn" Content="Udregn Diameter" HorizontalAlignment="Left" Margin="108,79,0,0" VerticalAlignment="Top" Width="108" Click="CalcDiaBtn_Click"/>
+    <Button x:Name="CalcOmkBtn" Content="Udregn Omkreds" HorizontalAlignment="Left" Margin="108,104,0,0" VerticalAlignment="Top" Width="108" Click="CalcOmkBtn_Click"/>
+    <TextBox x:Name="InputTxb" HorizontalAlignment="Left" Height="20" Margin="108,54,0,0" TextWrapping="Wrap" Text="Indsæt Radius" VerticalAlignment="Top" Width="108"/>
+    <TextBox x:Name="ResultDiaTxb" HorizontalAlignment="Left" Height="20" Margin="221,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="ResultOmkTxb" HorizontalAlignment="Left" Height="19" Margin="221,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+  </Grid>
+</Window>

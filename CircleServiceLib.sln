@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleServiceLib", "CircleServiceLib\CircleServiceLib.csproj", "{FBD248E2-FAA1-4003-A982-89FB28E9A361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{139A8849-DF10-4CA1-A0F5-A1477514BBD0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBD248E2-FAA1-4003-A982-89FB28E9A361} = {FBD248E2-FAA1-4003-A982-89FB28E9A361}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,15 @@ Global
 		{FBD248E2-FAA1-4003-A982-89FB28E9A361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBD248E2-FAA1-4003-A982-89FB28E9A361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBD248E2-FAA1-4003-A982-89FB28E9A361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139A8849-DF10-4CA1-A0F5-A1477514BBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A8849-DF10-4CA1-A0F5-A1477514BBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139A8849-DF10-4CA1-A0F5-A1477514BBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139A8849-DF10-4CA1-A0F5-A1477514BBD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5BD8475-FC75-4C82-9D8F-A01D16CE4C54}
 	EndGlobalSection
 EndGlobal
